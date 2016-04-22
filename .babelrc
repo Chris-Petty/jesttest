@@ -1,0 +1,11 @@
+{
+  "retainLines": true,
+  "compact": true,
+  "comments": false,
+  "presets": [
+    "react",
+    "react-native",
+    "es2015"
+  ],
+  "sourceMaps": false
+}
