@@ -6,8 +6,7 @@ import { shallow } from 'enzyme';
 
 describe('View', () => {
   it('is a view', () => {
-    console.log(`Log View, JUST DO IT: ${View}`);
-    let wrapper = shallow(<View />);
-    console.log(wrapper.debug());
+    const wrapper = shallow(<Text>Hello world</Text>);
+    console.log(`Wrapper.debug(): ${wrapper.html()}`);
   });
 });
