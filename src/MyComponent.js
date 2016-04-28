@@ -6,12 +6,17 @@
 
 import React, { View } from 'react-native';
 
-class myComponent extends React.Component {
+export default class MyComponent extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      value: 'foo',
+    };
+  }
+
   render() {
     return (
       <View>{this.props.children}</View>
     );
   }
 }
-
-export default myComponent;

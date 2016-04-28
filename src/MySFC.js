@@ -6,7 +6,7 @@
 
 import React, { View } from 'react-native';
 
-export default function mySFC(props){
+export default function MySFC(props){
   return (
     <View>{props.children}</View>
   );
